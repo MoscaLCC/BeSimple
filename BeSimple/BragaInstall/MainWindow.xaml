@@ -1,0 +1,26 @@
+﻿<Window x:Class="BragaInstall.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BragaInstall"
+        mc:Ignorable="d"
+        Title="BeSimple" Height="289.151" Width="576">
+    <Grid Margin="0,0,0,-126" HorizontalAlignment="Left" Width="550" RenderTransformOrigin="0.522,0.967" Height="332" VerticalAlignment="Top">
+        <Label x:Name="label3" Content="V1.0.0" HorizontalAlignment="Left" Height="25" Margin="632,639,0,0" VerticalAlignment="Top" Width="51"/>
+        <Grid Margin="304,25,13,125">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label x:Name="label" Content="Utilizador" HorizontalAlignment="Left" Height="27" Margin="9,24,0,0" VerticalAlignment="Top" Width="62"/>
+            <Label x:Name="label1" Content="Password" HorizontalAlignment="Left" Height="23" Margin="9,56,0,0" VerticalAlignment="Top" Width="62"/>
+            <Button x:Name="button" Content="Login&#xA;" HorizontalAlignment="Left" Height="27" Margin="121,104,0,0" VerticalAlignment="Top" Width="86" Click="button_Click"/>
+            <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="27" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Margin="76,24,0,0" TextChanged="textBox_TextChanged"/>
+            <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="27" Margin="76,56,0,0" VerticalAlignment="Top" Width="131"/>
+            <GroupBox x:Name="groupBox" Header="BESIMPLE" HorizontalAlignment="Left" VerticalAlignment="Top" Height="141" Width="233"/>
+
+        </Grid>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="213"   Margin="39,10,0,0" VerticalAlignment="Top" Width="397" Source="BeSimple.jpg"/>
+
+    </Grid>
+</Window>

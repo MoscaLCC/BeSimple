@@ -1,0 +1,54 @@
+extends layout
+
+block content
+  div(class="w3-containner w3-border-teal w3-pale-green w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-xxlarge w3-serif ")
+    center
+      p:i="Adicionar Encomenda"
+  br
+  center
+    form(class="w3-container" action="/registarencomenda" method="post" enctype="multipart/form-data" id="forms")
+        table(class="w3-table w3-centered w3-card-4 w3-opacity-min w3-black" style="margin:auto;")
+            tr
+                th
+                    h3 Marca
+                th
+                    h3 Modelo
+            tr  
+                td
+                    input(type="text" placeholder="Marca" name="marca" id="marca")
+                td
+                    input(type="text" placeholder="Modelo" name="modelo" id="modelo")
+            tr
+                th
+                    h3 Modelo Capa
+                th
+                    h3 Nome Cliente
+            tr  
+                td
+                    input(type="text" placeholder="Capa" name="capa" id="capa")
+                td
+                    input(type="text" placeholder="Cliente" name="cliente" id="cliente")
+            tr
+                th
+                    h3 Morada
+                th
+                    h3 Valor de Custos
+            tr  
+                td
+                    input(type="text" placeholder="Morada" name="morada" id="morada")
+                td
+                    input(type="text" placeholder="Custos" name="custos" id="custos")
+            tr
+                th
+                    h3 Valor de Venda
+                th
+                    h3 Detalhes
+            tr  
+                td
+                    input(type="text" placeholder="Venda" name="venda" id="venda")
+                td
+                    input(type="text" placeholder="Detalhes" name="detalhes" id="detalhes") 
+        table(class="w3-table w3-centered w3-card-4 w3-opacity-min w3-black" style="margin:auto;")
+            tr
+                td
+                    input(type="submit" value="Registar")

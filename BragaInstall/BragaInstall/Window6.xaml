@@ -1,0 +1,15 @@
+﻿<Window x:Class="BragaInstall.Window6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BragaInstall"
+        mc:Ignorable="d"
+        Title="Window6" Height="409.811" Width="732.057">
+    <Grid>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="262" Margin="10,21,0,0" VerticalAlignment="Top" Width="683" SelectionChanged="listBox_SelectionChanged"/>
+        <Button x:Name="button" Content="Sair" HorizontalAlignment="Left" Height="32" Margin="624,326,0,0" VerticalAlignment="Top" Width="69" Click="button_Click"/>
+        <Button x:Name="button1" Content="Remover Transação" HorizontalAlignment="Left" Height="32" Margin="480,326,0,0" VerticalAlignment="Top" Width="115" Click="button1_Click"/>
+
+    </Grid>
+</Window>

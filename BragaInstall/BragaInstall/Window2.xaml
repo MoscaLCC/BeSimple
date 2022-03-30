@@ -1,0 +1,59 @@
+﻿<Window x:Class="BragaInstall.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BragaInstall"
+        mc:Ignorable="d"
+        Title="BeSimple" Height="775.234" Width="720">
+    <Grid Margin="0,0,0,5">
+
+
+        <Label x:Name="label" Content="Nome:" HorizontalAlignment="Left" Height="34" Margin="32,56,0,0" VerticalAlignment="Top" Width="74"/>
+        <TextBox x:Name="nome" HorizontalAlignment="Left" Height="34" Margin="111,56,0,0" VerticalAlignment="Top" Width="500"/>
+        <Label x:Name="label1" Content="Morada:" HorizontalAlignment="Left" Height="30" Margin="32,95,0,0" VerticalAlignment="Top" Width="74"/>
+        <TextBox x:Name="morada"  HorizontalAlignment="Left" Height="30" Margin="111,95,0,0" VerticalAlignment="Top" Width="500"/>
+
+        <Label x:Name="label2" Content="ID:" HorizontalAlignment="Left" Height="28" Margin="32,187,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="id"  HorizontalAlignment="Left" Height="28" Margin="73,187,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="label3" Content="Estado:" HorizontalAlignment="Left" Height="30" Margin="223,187,0,0" VerticalAlignment="Top" Width="110"/>
+        <ComboBox x:Name="estado"  HorizontalAlignment="Left" Height="28" Margin="294,187,0,0" VerticalAlignment="Top" Width="113"/>
+        <Label x:Name="label4" Content="Modelo:" HorizontalAlignment="Left" Height="27" Margin="32,229,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="label5" Content="Marca:" HorizontalAlignment="Left" Height="26" Margin="32,261,0,0" VerticalAlignment="Top" Width="74"/>
+        <TextBox x:Name="marca"  HorizontalAlignment="Left" Height="26" Margin="106,261,0,0" VerticalAlignment="Top" Width="146"/>
+        <Label x:Name="label6" Content="Valor Medio:" HorizontalAlignment="Left" Height="32" Margin="32,337,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="Vmedio"  HorizontalAlignment="Left" Height="32" Margin="127,337,0,0" VerticalAlignment="Top" Width="104"/>
+        <Label x:Name="label7" Content="Valor de Compra:" HorizontalAlignment="Left" Height="32" Margin="289,337,0,0" VerticalAlignment="Top" Width="113"/>
+        <TextBox x:Name="Vcompra"  HorizontalAlignment="Left" Height="32" Margin="407,337,0,0" VerticalAlignment="Top" Width="140"/>
+        <Label x:Name="label8" Content="Valor Portes:" HorizontalAlignment="Left" Height="27" Margin="32,374,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="Vportes"  HorizontalAlignment="Left" Height="27" Margin="127,374,0,0" VerticalAlignment="Top" Width="104"/>
+        <Label x:Name="label9" Content="Valor de Venda:" HorizontalAlignment="Left" Height="27" Margin="289,374,0,0" VerticalAlignment="Top" Width="102"/>
+        <TextBox x:Name="Vvenda"  HorizontalAlignment="Left" Margin="407,374,0,0" VerticalAlignment="Top" Width="140" Height="27"/>
+        <Label x:Name="label10" Content="Valor Vendido:" HorizontalAlignment="Left" Height="28" Margin="32,409,0,0" VerticalAlignment="Top" Width="95"/>
+        <Label x:Name="Vvendido"  HorizontalAlignment="Left" Height="28" Margin="127,409,0,0" VerticalAlignment="Top" Width="104"/>
+        <Label x:Name="label11" Content="Valor de Lucro:" HorizontalAlignment="Left" Height="29" Margin="289,409,0,0" VerticalAlignment="Top" Width="102"/>
+
+
+        <Label x:Name="Vlucro"  HorizontalAlignment="Left" Height="28" Margin="407,406,0,0" VerticalAlignment="Top" Width="140"/>
+        <Label x:Name="label12" Content="Valor de Custo Total:" HorizontalAlignment="Left" Height="26" Margin="32,447,0,0" VerticalAlignment="Top" Width="124"/>
+        <Label x:Name="VCT"  HorizontalAlignment="Left" Height="26" Margin="156,447,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label x:Name="label13" Content="Valor dos Correios:" HorizontalAlignment="Left" Height="28" Margin="289,447,0,0" VerticalAlignment="Top" Width="126"/>
+        <TextBox x:Name="Vcorreios"  HorizontalAlignment="Left" Height="28" Margin="407,447,0,0" VerticalAlignment="Top" Width="140"/>
+        <Label x:Name="label14" Content="Valor do Saco:" HorizontalAlignment="Left" Height="24" Margin="32,489,0,0" VerticalAlignment="Top" Width="115"/>
+        <TextBox x:Name="Vsaco"  HorizontalAlignment="Left" Height="24" Margin="134,489,0,0" VerticalAlignment="Top" Width="97"/>
+        <GroupBox x:Name="groupBox" Header="Dados do Cliente" HorizontalAlignment="Left" Height="115" Margin="21,35,0,0" VerticalAlignment="Top" Width="650"/>
+        <GroupBox x:Name="groupBox1" Header="Dados da Venda" HorizontalAlignment="Left" Height="132" Margin="21,171,0,0" VerticalAlignment="Top" Width="650"/>
+        <GroupBox x:Name="groupBox2" Header="Contabilidade" HorizontalAlignment="Left" Height="229" Margin="21,308,0,0" VerticalAlignment="Top" Width="650"/>
+        <Label x:Name="label15" Content="Data:" HorizontalAlignment="Left" Height="30" Margin="63,642,0,0" VerticalAlignment="Top" Width="64"/>
+        <TextBox x:Name="data"  HorizontalAlignment="Left" Height="34" Margin="111,642,0,0" VerticalAlignment="Top" Width="125"/>
+        <Button x:Name="button" Content="Concluir" HorizontalAlignment="Left" Height="34" Margin="463,642,0,0" VerticalAlignment="Top" Width="84" Click="button_Click"/>
+        <Button x:Name="button1" Content="Sair" HorizontalAlignment="Left" Height="34" Margin="587,642,0,0" VerticalAlignment="Top" Width="84" Click="button1_Click"/>
+        <Label x:Name="label16" Content="Detalhes:" HorizontalAlignment="Left" Height="31" Margin="32,542,0,0" VerticalAlignment="Top" Width="83"/>
+        <TextBox x:Name="detalhes" HorizontalAlignment="Left" Height="50" Margin="32,573,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="628" TextChanged="detalhes_TextChanged"/>
+        <ComboBox x:Name="modelos" HorizontalAlignment="Left" Height="28" Margin="106,229,0,0" VerticalAlignment="Top" Width="116"/>
+
+
+
+
+    </Grid>
+</Window>

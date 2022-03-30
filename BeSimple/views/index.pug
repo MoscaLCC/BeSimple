@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  div(class="w3-containner w3-border-teal w3-pale-green w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-xxlarge w3-serif ")
+    center
+      p:i="Encomendas Pendentes"
+  br
+  center
+    table(class="w3-table w3-hoverable w3-centered w3-card-4 w3-opacity-min w3-black" style="margin:auto;")
+      tr(class="w3-white")
+        th 
+          p REFERENCIA
+        th 
+          p MARCA
+        th
+          p MODELO
+        th
+          p MODELO CAPA
+        th
+          p ESTADO
+        th
+          p
+      each encomenda in encomendas
+        tr
+          td
+            p=encomenda.ref.value
+          td
+            p=encomenda.marca.value
+          td
+            p=encomenda.modelo.value
+          td
+            p=encomenda.capa.value
+          td
+            p="Pendente"
+          td(style="vertical-align:middle;")
+            a(class="w3-button w3-black w3-border w3-border-teal w3-round-large" style="vertical-align:bottom;" href="/home")="Concluir"
